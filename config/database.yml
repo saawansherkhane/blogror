@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: utf-8
+  database: angularjs4_development #lbr_jsonb_local3 #nine_dot_nine_sep19
+  host: localhost
+  username: saawan
+  password: saawan123
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: utf-8
+  database: prodangularjs4_development #lbr_jsonb_local3 #nine_dot_nine_sep19
+  host: localhost
+  username: saawan
+  password: saawan123
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: utf-8
+  database: testangularjs4_development #lbr_jsonb_local3 #nine_dot_nine_sep19
+  host: localhost
+  username: saawan
+  password: saawan123
+  port: 5432
